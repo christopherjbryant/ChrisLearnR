@@ -1,0 +1,41 @@
+---
+title: "BasicProblems"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+# Problem 1
+
+Do simple math with numbers, addition, subtraction, multiplication, division
+
+```{r}
+1+1
+9-7
+8*9
+3/4
+
+```
+
+# Problem 2
+Put numbers into variables, do simple math on the variables
+
+```{r}
+
+a <- 55
+b <- 32
+a+b
+```
+
+
+
+
