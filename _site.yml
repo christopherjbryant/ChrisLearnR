@@ -1,11 +1,13 @@
-name: "Chris' Site"
+name: "Chris Learns R"
 navbar:
-  title: "Chris' Site"
+  title: "Chris Learns R"
   left:
     - text: "Home"
       href: index.html
-    - text: "RBasics"
-      href: rbasics.html
+    - text: "RBasics2"
+      href: RBasics2.html
     - text: "Links"
       href: Links.html
+    - text: "R functions"
+      href: Rfunctions.html
 output_dir: "docs"

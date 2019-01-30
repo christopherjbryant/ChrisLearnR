@@ -1,5 +1,5 @@
 ---
-title: "BasicProblems"
+title: "R Basics"
 output:
   html_document:
     toc: true
@@ -25,17 +25,3 @@ Do simple math with numbers, addition, subtraction, multiplication, division
 3/4
 
 ```
-
-# Problem 2
-Put numbers into variables, do simple math on the variables
-
-```{r}
-
-a <- 55
-b <- 32
-a+b
-```
-
-
-
-
