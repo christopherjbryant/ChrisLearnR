@@ -4,10 +4,14 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "RBasics2"
-      href: RBasics2.html
+    - text: "RBasics"
+      href: RBasics.html
     - text: "Links"
       href: Links.html
     - text: "R functions"
       href: Rfunctions.html
+    - text: "Newtab"
+      href: Newtab.html
+    - text: "Lentivirus generation"
+      href: LVGen.html
 output_dir: "docs"

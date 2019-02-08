@@ -1,0 +1,54 @@
+---
+title: "Generation of lentivirus"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+Protocol adapted from Invitrogen Virapower protocol (used by CGAP), but substituting Virapower (3rd generation proprietary packaging mix) with psPAX2/pMD2.G (2nd generation packaging mix).
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3695815/
+
+---
+# here's a comment that will not appear in the knitted document
+---
+
+### Day 1
+•	Plate 5x106 HEK293FT cells per 10cm dish in 10ml DMEM and return to 37C overnight. Cells should be 90-95% confluent at the time of transfection.
+
+### Day 2
+•	Aspirate the growth medium and add 5ml serum-free OptiMEM.
+•	Prepare DNA-Lipofectamine 2000 complexes:
+
+Tube A	Tube B
+1.5ml OptiMEM	1.5ml OptiMEM
+7.5ug psPAX2	36ul Lipofectamine 2000
+2.5ug pMD2.G	
+6ug gRNAv1.1	
+
+•	Incubate for 5 minutes at RT.
+•	Combine contents of each tube and mix gently.
+•	Incubate for 20 minutes at RT (solution may appear cloudy).
+•	Add complexes drop wise to each plate and mix by rocking the plate back-and-forth.
+•	Incubate cells at 37C overnight.
+
+### Day 3
+•	Remove the transfection medium and add 10ml of DMEM.
+
+### Day 4
+•	Harvest virus and store at 4C overnight.
+•	Replace medium with 10ml fresh DMEM.
+
+### Day 5
+•	Harvest virus and combine with 48h harves.t
+•	Spin at 1500rpm for 5 mins to remove large debris.
+•	Pass through 0.45um filter and freeze appropriate size aliquots directly at -80C.
