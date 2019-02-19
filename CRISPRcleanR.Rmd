@@ -1,5 +1,5 @@
 ---
-title: "Newtab"
+title: "CRISPRcleanR"
 output:
   html_document:
     toc: true
@@ -18,9 +18,10 @@ Some text
 
 Some more text
 
-### Add some embedded R code and plots
+### Add some embedded R code
 
 ```{r cars}
 head(cars)
 plot(cars$speed,cars$dist)
 ```
+

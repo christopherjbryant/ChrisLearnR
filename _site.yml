@@ -14,4 +14,6 @@ navbar:
       href: Newtab.html
     - text: "Lentivirus generation"
       href: LVGen.html
+    - text: "CRISPRcleanR"
+      href: CRISPRcleanR.html
 output_dir: "docs"
